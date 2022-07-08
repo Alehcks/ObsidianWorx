@@ -3,20 +3,35 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Silent Aim",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Section"
+	Name = "Settings"
 })
 
-Tab:AddButton({
-	Name = "Button!",
+Tab:AddBind({
+	Name = "Toggle Player Lock",
+	Default = Enum.KeyCode.Q,
+	Hold = false,
 	Callback = function()
-      		print("button pressed")
-  	end    
+		print("Toggled")
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Info"
+})
+
+Tab:AddTextbox({
+	Name = "Textbox",
+	Default = "default box input",
+	TextDisappear = true,
+	Callback = function("ScreenGui")
+		print(Value)
+	end	  
 })
 
 Playersaimbot = nil
