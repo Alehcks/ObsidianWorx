@@ -69,7 +69,7 @@ HealthPlayers.Size = UDim2.new(0, 173, 0, 22)
 HealthPlayers.Font = Enum.Font.FredokaOne
 HealthPlayers.Text = "Health | N/A"
 HealthPlayers.TextColor3 = Color3.fromRGB(255, 255, 255)
-HealthPlayers.TextSize = 9.000
+HealthPlayers.TextSize = 19.000
 HealthPlayers.TextXAlignment = Enum.TextXAlignment.Left
 HealthPlayers.TextYAlignment = Enum.TextYAlignment.Bottom
 
@@ -83,7 +83,7 @@ loackplayerslabel.Size = UDim2.new(0, 173, 0, 22)
 loackplayerslabel.Font = Enum.Font.FredokaOne
 loackplayerslabel.Text = "Lock Players | OFF"
 loackplayerslabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-loackplayerslabel.TextSize = 9.000
+loackplayerslabel.TextSize = 19.000
 loackplayerslabel.TextXAlignment = Enum.TextXAlignment.Left
 loackplayerslabel.TextYAlignment = Enum.TextYAlignment.Bottom
 
@@ -97,7 +97,7 @@ NamePlayers.Size = UDim2.new(0, 173, 0, 22)
 NamePlayers.Font = Enum.Font.FredokaOne
 NamePlayers.Text = "Name | N/A"
 NamePlayers.TextColor3 = Color3.fromRGB(255, 255, 255)
-NamePlayers.TextSize = 9.000
+NamePlayers.TextSize = 19.000
 NamePlayers.TextXAlignment = Enum.TextXAlignment.Left
 NamePlayers.TextYAlignment = Enum.TextYAlignment.Bottom
 
